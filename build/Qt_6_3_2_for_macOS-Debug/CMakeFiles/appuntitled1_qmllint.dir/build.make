@@ -68,7 +68,8 @@ include CMakeFiles/appuntitled1_qmllint.dir/progress.make
 
 CMakeFiles/appuntitled1_qmllint: /Users/selinozkoc/Qt/6.3.2/macos/bin/qmllint
 CMakeFiles/appuntitled1_qmllint: /Users/selinozkoc/untitled1/Main.qml
-	cd /Users/selinozkoc/untitled1 && /Users/selinozkoc/Qt/6.3.2/macos/bin/qmllint -I /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug --resource /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmake_untitled1.qrc --resource /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/appuntitled1_raw_qml_0.qrc /Users/selinozkoc/untitled1/Main.qml
+CMakeFiles/appuntitled1_qmllint: /Users/selinozkoc/untitled1/guide.qml
+	cd /Users/selinozkoc/untitled1 && /Users/selinozkoc/Qt/6.3.2/macos/bin/qmllint -I /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug --resource /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmake_untitled1.qrc --resource /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/appuntitled1_raw_qml_0.qrc /Users/selinozkoc/untitled1/Main.qml /Users/selinozkoc/untitled1/guide.qml
 
 CMakeFiles/appuntitled1_qmllint.dir/codegen:
 .PHONY : CMakeFiles/appuntitled1_qmllint.dir/codegen

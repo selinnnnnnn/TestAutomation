@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "untitled1/Main.qml"
+  "untitled1/guide.qml"
 )
 
 # Per-language clean rules from dependency scanning.

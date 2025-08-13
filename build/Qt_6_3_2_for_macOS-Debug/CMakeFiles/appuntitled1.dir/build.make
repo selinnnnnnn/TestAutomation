@@ -121,15 +121,26 @@ untitled1/appuntitled1.qmltypes: appuntitled1_qmltyperegistrations.cpp
 	/opt/homebrew/Cellar/cmake/4.0.3/bin/cmake -E make_directory /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache
 	/Users/selinozkoc/Qt/6.3.2/macos/libexec/qmlcachegen --resource-path /untitled1/Main.qml -I /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug -i /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/untitled1/qmldir --resource /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmake_untitled1.qrc --resource /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/appuntitled1_raw_qml_0.qrc -o /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp /Users/selinozkoc/untitled1/Main.qml
 
+.rcc/qmlcache/appuntitled1_guide_qml.cpp: /Users/selinozkoc/Qt/6.3.2/macos/libexec/qmlcachegen
+.rcc/qmlcache/appuntitled1_guide_qml.cpp: /Users/selinozkoc/untitled1/guide.qml
+.rcc/qmlcache/appuntitled1_guide_qml.cpp: .rcc/qmake_untitled1.qrc
+.rcc/qmlcache/appuntitled1_guide_qml.cpp: .rcc/appuntitled1_raw_qml_0.qrc
+.rcc/qmlcache/appuntitled1_guide_qml.cpp: untitled1/appuntitled1.qmltypes
+.rcc/qmlcache/appuntitled1_guide_qml.cpp: untitled1/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/appuntitled1_guide_qml.cpp"
+	/opt/homebrew/Cellar/cmake/4.0.3/bin/cmake -E make_directory /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache
+	/Users/selinozkoc/Qt/6.3.2/macos/libexec/qmlcachegen --resource-path /untitled1/guide.qml -I /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug -i /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/untitled1/qmldir --resource /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmake_untitled1.qrc --resource /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/appuntitled1_raw_qml_0.qrc -o /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp /Users/selinozkoc/untitled1/guide.qml
+
 .rcc/qrc_appuntitled1_raw_qml_0.cpp: /Users/selinozkoc/untitled1/Main.qml
+.rcc/qrc_appuntitled1_raw_qml_0.cpp: /Users/selinozkoc/untitled1/guide.qml
 .rcc/qrc_appuntitled1_raw_qml_0.cpp: .rcc/appuntitled1_raw_qml_0.qrc
 .rcc/qrc_appuntitled1_raw_qml_0.cpp: /Users/selinozkoc/Qt/6.3.2/macos/./libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running rcc for resource appuntitled1_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running rcc for resource appuntitled1_raw_qml_0"
 	/Users/selinozkoc/Qt/6.3.2/macos/libexec/rcc --output /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_appuntitled1_raw_qml_0.cpp --name appuntitled1_raw_qml_0 /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/appuntitled1_raw_qml_0.qrc --no-zstd
 
 appuntitled1_autogen/timestamp: /Users/selinozkoc/Qt/6.3.2/macos/./libexec/moc
 appuntitled1_autogen/timestamp: CMakeFiles/appuntitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Automatic MOC for target appuntitled1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Automatic MOC for target appuntitled1"
 	/opt/homebrew/Cellar/cmake/4.0.3/bin/cmake -E cmake_autogen /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles/appuntitled1_autogen.dir/AutogenInfo.json Debug
 	/opt/homebrew/Cellar/cmake/4.0.3/bin/cmake -E touch /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/appuntitled1_autogen/timestamp
 
@@ -139,7 +150,7 @@ CMakeFiles/appuntitled1.dir/codegen:
 CMakeFiles/appuntitled1.dir/appuntitled1_autogen/mocs_compilation.cpp.o: CMakeFiles/appuntitled1.dir/flags.make
 CMakeFiles/appuntitled1.dir/appuntitled1_autogen/mocs_compilation.cpp.o: appuntitled1_autogen/mocs_compilation.cpp
 CMakeFiles/appuntitled1.dir/appuntitled1_autogen/mocs_compilation.cpp.o: CMakeFiles/appuntitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/appuntitled1.dir/appuntitled1_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/appuntitled1.dir/appuntitled1_autogen/mocs_compilation.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appuntitled1.dir/appuntitled1_autogen/mocs_compilation.cpp.o -MF CMakeFiles/appuntitled1.dir/appuntitled1_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/appuntitled1.dir/appuntitled1_autogen/mocs_compilation.cpp.o -c /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/appuntitled1_autogen/mocs_compilation.cpp
 
 CMakeFiles/appuntitled1.dir/appuntitled1_autogen/mocs_compilation.cpp.i: cmake_force
@@ -153,7 +164,7 @@ CMakeFiles/appuntitled1.dir/appuntitled1_autogen/mocs_compilation.cpp.s: cmake_f
 CMakeFiles/appuntitled1.dir/main.cpp.o: CMakeFiles/appuntitled1.dir/flags.make
 CMakeFiles/appuntitled1.dir/main.cpp.o: /Users/selinozkoc/untitled1/main.cpp
 CMakeFiles/appuntitled1.dir/main.cpp.o: CMakeFiles/appuntitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/appuntitled1.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/appuntitled1.dir/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appuntitled1.dir/main.cpp.o -MF CMakeFiles/appuntitled1.dir/main.cpp.o.d -o CMakeFiles/appuntitled1.dir/main.cpp.o -c /Users/selinozkoc/untitled1/main.cpp
 
 CMakeFiles/appuntitled1.dir/main.cpp.i: cmake_force
@@ -167,7 +178,7 @@ CMakeFiles/appuntitled1.dir/main.cpp.s: cmake_force
 CMakeFiles/appuntitled1.dir/appuntitled1_qmltyperegistrations.cpp.o: CMakeFiles/appuntitled1.dir/flags.make
 CMakeFiles/appuntitled1.dir/appuntitled1_qmltyperegistrations.cpp.o: appuntitled1_qmltyperegistrations.cpp
 CMakeFiles/appuntitled1.dir/appuntitled1_qmltyperegistrations.cpp.o: CMakeFiles/appuntitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/appuntitled1.dir/appuntitled1_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appuntitled1.dir/appuntitled1_qmltyperegistrations.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appuntitled1.dir/appuntitled1_qmltyperegistrations.cpp.o -MF CMakeFiles/appuntitled1.dir/appuntitled1_qmltyperegistrations.cpp.o.d -o CMakeFiles/appuntitled1.dir/appuntitled1_qmltyperegistrations.cpp.o -c /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/appuntitled1_qmltyperegistrations.cpp
 
 CMakeFiles/appuntitled1.dir/appuntitled1_qmltyperegistrations.cpp.i: cmake_force
@@ -181,7 +192,7 @@ CMakeFiles/appuntitled1.dir/appuntitled1_qmltyperegistrations.cpp.s: cmake_force
 CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_qmake_untitled1.cpp.o: CMakeFiles/appuntitled1.dir/flags.make
 CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_qmake_untitled1.cpp.o: .rcc/qrc_qmake_untitled1.cpp
 CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_qmake_untitled1.cpp.o: CMakeFiles/appuntitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_qmake_untitled1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_qmake_untitled1.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_qmake_untitled1.cpp.o -MF CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_qmake_untitled1.cpp.o.d -o CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_qmake_untitled1.cpp.o -c /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_qmake_untitled1.cpp
 
 CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_qmake_untitled1.cpp.i: cmake_force
@@ -195,7 +206,7 @@ CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_qmake_untitl
 CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.cpp.o: CMakeFiles/appuntitled1.dir/flags.make
 CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.cpp.o: .rcc/qmlcache/appuntitled1_qmlcache_loader.cpp
 CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.cpp.o: CMakeFiles/appuntitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.cpp.o -MF CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.cpp.o.d -o CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.cpp.o -c /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.cpp
 
 CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.cpp.i: cmake_force
@@ -209,7 +220,7 @@ CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appunti
 CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp.o: CMakeFiles/appuntitled1.dir/flags.make
 CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp.o: .rcc/qmlcache/appuntitled1_Main_qml.cpp
 CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp.o: CMakeFiles/appuntitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp.o -MF CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp.o.d -o CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp.o -c /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp
 
 CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp.i: cmake_force
@@ -220,10 +231,24 @@ CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appunti
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp -o CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp.s
 
+CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.o: CMakeFiles/appuntitled1.dir/flags.make
+CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.o: .rcc/qmlcache/appuntitled1_guide_qml.cpp
+CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.o: CMakeFiles/appuntitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.o -MF CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.o.d -o CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.o -c /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp
+
+CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp > CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.i
+
+CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp -o CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.s
+
 CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_appuntitled1_raw_qml_0.cpp.o: CMakeFiles/appuntitled1.dir/flags.make
 CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_appuntitled1_raw_qml_0.cpp.o: .rcc/qrc_appuntitled1_raw_qml_0.cpp
 CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_appuntitled1_raw_qml_0.cpp.o: CMakeFiles/appuntitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_appuntitled1_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_appuntitled1_raw_qml_0.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_appuntitled1_raw_qml_0.cpp.o -MF CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_appuntitled1_raw_qml_0.cpp.o.d -o CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_appuntitled1_raw_qml_0.cpp.o -c /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_appuntitled1_raw_qml_0.cpp
 
 CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_appuntitled1_raw_qml_0.cpp.i: cmake_force
@@ -242,6 +267,7 @@ appuntitled1_OBJECTS = \
 "CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_qmake_untitled1.cpp.o" \
 "CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.cpp.o" \
 "CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp.o" \
+"CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.o" \
 "CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_appuntitled1_raw_qml_0.cpp.o"
 
 # External object files for target appuntitled1
@@ -253,6 +279,7 @@ appuntitled1.app/Contents/MacOS/appuntitled1: CMakeFiles/appuntitled1.dir/appunt
 appuntitled1.app/Contents/MacOS/appuntitled1: CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_qmake_untitled1.cpp.o
 appuntitled1.app/Contents/MacOS/appuntitled1: CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.cpp.o
 appuntitled1.app/Contents/MacOS/appuntitled1: CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp.o
+appuntitled1.app/Contents/MacOS/appuntitled1: CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.o
 appuntitled1.app/Contents/MacOS/appuntitled1: CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_appuntitled1_raw_qml_0.cpp.o
 appuntitled1.app/Contents/MacOS/appuntitled1: CMakeFiles/appuntitled1.dir/build.make
 appuntitled1.app/Contents/MacOS/appuntitled1: /Users/selinozkoc/Qt/6.3.2/macos/lib/QtQuickControls2.framework/Versions/A/QtQuickControls2
@@ -264,7 +291,7 @@ appuntitled1.app/Contents/MacOS/appuntitled1: /Users/selinozkoc/Qt/6.3.2/macos/l
 appuntitled1.app/Contents/MacOS/appuntitled1: /Users/selinozkoc/Qt/6.3.2/macos/lib/QtGui.framework/Versions/A/QtGui
 appuntitled1.app/Contents/MacOS/appuntitled1: /Users/selinozkoc/Qt/6.3.2/macos/lib/QtCore.framework/Versions/A/QtCore
 appuntitled1.app/Contents/MacOS/appuntitled1: CMakeFiles/appuntitled1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable appuntitled1.app/Contents/MacOS/appuntitled1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable appuntitled1.app/Contents/MacOS/appuntitled1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/appuntitled1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -276,6 +303,7 @@ CMakeFiles/appuntitled1.dir/clean:
 .PHONY : CMakeFiles/appuntitled1.dir/clean
 
 CMakeFiles/appuntitled1.dir/depend: .rcc/qmlcache/appuntitled1_Main_qml.cpp
+CMakeFiles/appuntitled1.dir/depend: .rcc/qmlcache/appuntitled1_guide_qml.cpp
 CMakeFiles/appuntitled1.dir/depend: .rcc/qmlcache/appuntitled1_qmlcache_loader.cpp
 CMakeFiles/appuntitled1.dir/depend: .rcc/qrc_appuntitled1_raw_qml_0.cpp
 CMakeFiles/appuntitled1.dir/depend: .rcc/qrc_qmake_untitled1.cpp

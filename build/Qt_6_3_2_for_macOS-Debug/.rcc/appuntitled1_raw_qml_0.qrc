@@ -1,6 +1,7 @@
 <RCC>
   <qresource prefix="/untitled1/">
     <file alias="Main.qml">/Users/selinozkoc/untitled1/Main.qml</file>
+    <file alias="guide.qml">/Users/selinozkoc/untitled1/guide.qml</file>
   </qresource>
 </RCC>
 

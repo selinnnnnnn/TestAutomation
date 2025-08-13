@@ -72,6 +72,7 @@ CMakeFiles/appuntitled1_qmlimportscan: .qt_plugins/Qt6_QmlPlugins_Imports_appunt
 .qt_plugins/Qt6_QmlPlugins_Imports_appuntitled1.cmake: .rcc/qmake_untitled1.qrc
 .qt_plugins/Qt6_QmlPlugins_Imports_appuntitled1.cmake: .rcc/appuntitled1_raw_qml_0.qrc
 .qt_plugins/Qt6_QmlPlugins_Imports_appuntitled1.cmake: /Users/selinozkoc/untitled1/Main.qml
+.qt_plugins/Qt6_QmlPlugins_Imports_appuntitled1.cmake: /Users/selinozkoc/untitled1/guide.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for appuntitled1"
 	cd /Users/selinozkoc/untitled1 && /Users/selinozkoc/Qt/6.3.2/macos/libexec/qmlimportscanner @/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appuntitled1.rsp
 

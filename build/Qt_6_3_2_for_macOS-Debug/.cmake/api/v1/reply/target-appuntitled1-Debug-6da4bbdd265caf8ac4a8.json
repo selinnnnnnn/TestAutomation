@@ -94,13 +94,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 37,
+				"line" : 39,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 32,
+				"line" : 34,
 				"parent" : 0
 			},
 			{
@@ -503,6 +503,18 @@
 				"parent" : 55
 			},
 			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 1814,
+				"parent" : 55
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 1952,
+				"parent" : 55
+			},
+			{
 				"command" : 26,
 				"file" : 5,
 				"line" : 2028,
@@ -512,19 +524,19 @@
 				"command" : 25,
 				"file" : 0,
 				"line" : 340,
-				"parent" : 78
+				"parent" : 80
 			},
 			{
 				"command" : 24,
 				"file" : 0,
 				"line" : 2234,
-				"parent" : 79
+				"parent" : 81
 			},
 			{
 				"command" : 22,
 				"file" : 0,
 				"line" : 2017,
-				"parent" : 80
+				"parent" : 82
 			}
 		]
 	},
@@ -722,19 +734,13 @@
 				4,
 				6,
 				7,
-				8
+				9,
+				10
 			]
 		}
 	],
 	"dependencies" : 
 	[
-		{
-			"id" : "appuntitled1_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 0,
-			"id" : "appuntitled1_autogen::@6890427a1f51a3e7e1df"
-		},
 		{
 			"id" : "appuntitled1_automoc_json_extraction::@6890427a1f51a3e7e1df"
 		},
@@ -745,6 +751,13 @@
 		{
 			"backtrace" : 63,
 			"id" : "appuntitled1_qmlimportscan::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "appuntitled1_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "appuntitled1_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "appuntitled1::@6890427a1f51a3e7e1df",
@@ -870,7 +883,9 @@
 				5,
 				6,
 				7,
-				8
+				8,
+				9,
+				10
 			]
 		},
 		{
@@ -878,28 +893,29 @@
 			"sourceIndexes" : 
 			[
 				2,
-				9,
-				17,
-				18,
-				19,
+				11,
 				20,
 				21,
 				22,
 				23,
-				24
+				24,
+				25,
+				26,
+				27
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				10,
-				11,
 				12,
 				13,
 				14,
 				15,
-				16
+				16,
+				17,
+				18,
+				19
 			]
 		}
 	],
@@ -958,7 +974,19 @@
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 81,
+			"backtrace" : 78,
+			"path" : "guide.qml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 79,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/Qt_6_3_2_for_macOS-Debug/.rcc/qrc_appuntitled1_raw_qml_0.cpp",
@@ -998,6 +1026,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.rule",
 			"sourceGroupIndex" : 2
 		},
 		{

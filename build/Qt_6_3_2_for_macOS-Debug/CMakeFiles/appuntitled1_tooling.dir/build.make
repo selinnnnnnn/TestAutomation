@@ -70,10 +70,15 @@ untitled1/Main.qml: /Users/selinozkoc/untitled1/Main.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating untitled1/Main.qml"
 	cd /Users/selinozkoc/untitled1 && /opt/homebrew/Cellar/cmake/4.0.3/bin/cmake -E copy /Users/selinozkoc/untitled1/Main.qml /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/untitled1/Main.qml
 
+untitled1/guide.qml: /Users/selinozkoc/untitled1/guide.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating untitled1/guide.qml"
+	cd /Users/selinozkoc/untitled1 && /opt/homebrew/Cellar/cmake/4.0.3/bin/cmake -E copy /Users/selinozkoc/untitled1/guide.qml /Users/selinozkoc/untitled1/build/Qt_6_3_2_for_macOS-Debug/untitled1/guide.qml
+
 CMakeFiles/appuntitled1_tooling.dir/codegen:
 .PHONY : CMakeFiles/appuntitled1_tooling.dir/codegen
 
 appuntitled1_tooling: untitled1/Main.qml
+appuntitled1_tooling: untitled1/guide.qml
 appuntitled1_tooling: CMakeFiles/appuntitled1_tooling.dir/build.make
 .PHONY : appuntitled1_tooling
 

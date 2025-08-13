@@ -376,6 +376,30 @@ build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appuntitled1.dir/build.make CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp.s
 .PHONY : build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.cpp.s
 
+build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.o: build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.o
+.PHONY : build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.o
+
+# target to build an object file
+build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appuntitled1.dir/build.make CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.o
+.PHONY : build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.o
+
+build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.i: build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.i
+.PHONY : build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.i
+
+# target to preprocess a source file
+build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appuntitled1.dir/build.make CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.i
+.PHONY : build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.i
+
+build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.s: build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.s
+.PHONY : build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.s
+
+# target to generate assembly for a file
+build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appuntitled1.dir/build.make CMakeFiles/appuntitled1.dir/build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.s
+.PHONY : build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.cpp.s
+
 build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.o: build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.cpp.o
 .PHONY : build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.o
 
@@ -504,6 +528,9 @@ help:
 	@echo "... build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.o"
 	@echo "... build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.i"
 	@echo "... build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_Main_qml.s"
+	@echo "... build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.o"
+	@echo "... build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.i"
+	@echo "... build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_guide_qml.s"
 	@echo "... build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.o"
 	@echo "... build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.i"
 	@echo "... build/Qt_6_3_2_for_macOS-Debug/.rcc/qmlcache/appuntitled1_qmlcache_loader.s"
